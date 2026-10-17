@@ -1,5 +1,5 @@
 
-# Simple Persistent Key-Value Store
+# Simple Persistent Key-Value Database
 
 A simple persistent key-value store written in Python. It behaves like a `dict`, but also saves its contents to disk, so data survives program termination. The design is based on log-structured storage with an in-memory hash table index.
 
