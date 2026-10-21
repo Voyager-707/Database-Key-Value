@@ -1,4 +1,5 @@
-Semestal Project · Mikhail Fedorov · Charles University / Faculty of Mathematics and Phyics / Department of Software Engineering · 2026 Supervisor: Mgr. Klára Pešková, Ph.D
+Semestral Project · Mikhail Fedorov · Charles University / Faculty of Mathematics and Physics / Department of Software Engineering · 2026
+Supervisor: Mgr. Klára Pešková, Ph.D.
 # Simple Persistent Key-Value Database
 
 A simple persistent key-value store written in Python. It behaves like a `dict`, but also saves its contents to disk, so data survives program termination. The design is based on log-structured storage with an in-memory hash table index.
